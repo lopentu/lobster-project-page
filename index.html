@@ -4,31 +4,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
   <meta name="title" content="LOBSTER: Linguistics Olympiad Benchmark for Structured Evaluation on Reasoning">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
   <meta name="description" content="We propose LOBSTER, a benchmark designed to evaluate large language models (LLMs) on complex linguistic puzzles of the International Linguistics Olympiad (IOL), covering over 90 low-resource languages.">
-  
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
   <meta name="keywords" content="Linguistics, LLM, Reasoning, Benchmark, Low-resource languages, IOL, NLP">
-  
+  <!-- TODO: List all authors -->
   <meta name="author" content="Da-Chen Lian, Ri-Sheng Huang, Pin-Er Chen, Chunki Lim, You-Kuan Lin, Guan-Yu Tseng, Zhen-Yu Lin, Pin-Cheng Chen, Shu-Kai Hsieh">
-  
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  
+
+  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
   <meta property="og:site_name" content="National Taiwan University">
+  <!-- TODO: Same as paper title above -->
   <meta property="og:title" content="LOBSTER: Linguistics Olympiad Benchmark for Structured Evaluation on Reasoning">
+  <!-- TODO: Same as description above -->
   <meta property="og:description" content="We propose LOBSTER, a benchmark designed to evaluate large language models (LLMs) on complex linguistic puzzles of the International Linguistics Olympiad (IOL).">
+  <!-- TODO: Replace with your actual website URL -->
   <meta property="og:url" content="https://YOUR_USERNAME.github.io/YOUR_REPO_NAME">
-  
+  <!-- TODO: Create a 1200x630px preview image and update path -->
   <meta property="og:image" content="static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="LOBSTER: Linguistics Olympiad Benchmark">
   <meta name="twitter:description" content="Evaluating LLMs on complex linguistic puzzles across 90+ languages.">
   <meta name="twitter:image" content="static/images/social_preview.png">
 
+  <!-- Academic/Research Specific -->
   <meta name="citation_title" content="LOBSTER: Linguistics Olympiad Benchmark for Structured Evaluation on Reasoning">
   <meta name="citation_author" content="Lian, Da-Chen">
   <meta name="citation_author" content="Huang, Ri-Sheng">
@@ -36,37 +43,109 @@
   <meta name="citation_publication_date" content="2025">
   <meta name="citation_conference_title" content="ROCLING 2025">
   <meta name="citation_pdf_url" content="https://aclanthology.org/2025.rocling-main.23.pdf">
+
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  
+  <!-- TODO: Replace with your paper title and authors -->
   <title>LOBSTER: Linguistics Olympiad Benchmark</title>
   
+  <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
   
+  <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Fallback for browsers that don't support preload -->
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  
+  <!-- Fonts - Optimized loading -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
+  <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script defer src="static/js/index.js"></script>
+  
 </head>
 <body>
 
+  <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top">
     <i class="fas fa-chevron-up"></i>
   </button>
 
+  <!-- More Works Dropdown -->
+  <div class="more-works-container">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
+      <i class="fas fa-flask"></i>
+      More Works
+      <i class="fas fa-chevron-down dropdown-arrow"></i>
+    </button>
+    <div class="more-works-dropdown" id="moreWorksDropdown">
+      <div class="dropdown-header">
+        <h4>More Works from Our Lab</h4>
+        <button class="close-btn" onclick="toggleMoreWorks()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="works-list">
+        <!-- TODO: Replace with your lab's related works -->
+        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+          <div class="work-info">
+            <!-- TODO: Replace with actual paper title -->
+            <h5>Paper Title 1</h5>
+            <!-- TODO: Replace with brief description -->
+            <p>Brief description of the work and its main contribution.</p>
+            <!-- TODO: Replace with venue and year -->
+            <span class="work-venue">Conference/Journal 2024</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <!-- TODO: Add more related works or remove extra items -->
+        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 2</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2023</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 3</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2023</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            
+            <!-- TODO: Replace with your paper title -->
             <h1 class="title is-1 publication-title">LOBSTER: Linguistics Olympiad Benchmark for Structured Evaluation on Reasoning</h1>
-            
             <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">Da-Chen Lian,</span>
               <span class="author-block">Ri-Sheng Huang,</span>
               <span class="author-block">Pin-Er Chen,</span>
@@ -79,13 +158,15 @@
             </div>
 
             <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your institution and conference/journal info -->
               <span class="author-block">National Taiwan University</span><br>
+              <!-- TODO: Remove this line if no equal contribution -->
               <span class="author-block"><small>ROCLING 2025</small></span>
             </div>
 
             <div class="column has-text-centered">
               <div class="publication-links">
-                
+                <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
                   <a href="https://aclanthology.org/2025.rocling-main.23.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
@@ -96,6 +177,7 @@
                   </a>
                 </span>
 
+                <!-- TODO: Add your supplementary material PDF or remove this section -->
                 <span class="link-block">
                   <a href="https://github.com/lopentu/LOBSTER" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
@@ -106,6 +188,7 @@
                   </a>
                 </span>
 
+                <!-- TODO: Replace with your GitHub repository URL -->
                 <span class="link-block">
                   <a href="#" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
@@ -124,12 +207,32 @@
     </div>
   </section>
 
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- TODO: Replace with your teaser video -->
+      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+        <!-- TODO: Add your video file path here -->
+        <source src="static/videos/banner_video.mp4" type="video/mp4">
+      </video>
+      <!-- TODO: Replace with your video description -->
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
           <p>
             We propose the <strong>Linguistics Olympiad Benchmark for Structured Evaluation on Reasoning (LOBSTER)</strong>, 
             a linguistically-informed benchmark designed to evaluate large language models (LLMs) on complex linguistic puzzles 
@@ -152,6 +255,106 @@
     </div>
   </div>
 </section>
+<!-- End paper abstract -->
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- TODO: Replace with your research result images -->
+        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
+        <!-- TODO: Replace with description of this result -->
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel3.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+
+
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <!-- TODO: Replace with your poster PDF -->
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+
+<!--BibTex citation -->
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <div class="bibtex-header">
@@ -174,6 +377,7 @@
 }</code></pre>
   </div>
 </section>
+<!--End BibTex citation -->
 
 <footer class="footer">
   <div class="container">
@@ -189,6 +393,12 @@
     </div>
   </div>
 </footer>
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
 
 </body>
 </html>
